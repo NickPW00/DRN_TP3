@@ -1,10 +1,14 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import Filtro from './src/TP1_1';
+import Ordenada from './src/TP1_2';
+
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+      <Filtro />
+      <Ordenada />
       <StatusBar style="auto" />
     </View>
   );
